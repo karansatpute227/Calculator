@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Set a simple background color */
+    font-family: Arial, sans-serif; /* Changed font-family for better compatibility */
+}
+
+h1 {
+    color: #333; /* Changed heading color */
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+
+.calculator {
+    padding: 40px 30px;
+    border-radius: 20px; /* Reduced border-radius for a cleaner look */
+    background-color: #fff; /* Set calculator background color */
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1); /* Softened box-shadow */
+}
+
+.display {
+    margin-right: 2%;
+    width: 85%;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-size: 2rem;
+    background-color: #eee; /* Set display background color */
+    color: #333; /* Set display text color */
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 15px;
+    border-radius: 80px;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    background-color: #4CAF50; /* Set button background color */
+    color: #fff; /* Set button text color */
+    margin: 3px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #45a049; /* Darken button color on hover */
+    color: #fff;
+}
+
+.operator {
+    background-color: #333; /* Set operator button background color */
+    color: #fff; /* Set operator button text color */
+    font-size: 1.6rem;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.operator:hover {
+    background-color: #555; /* Darken operator button color on hover */
+}
